@@ -2,7 +2,7 @@
 #define bluebusTxPin 8
 
 #include <NewSoftSerial.h>
-#include "BlueBus/BlueBus.h"
+#include <BlueBus.h>
 
 struct Outgoing {
   char x;
